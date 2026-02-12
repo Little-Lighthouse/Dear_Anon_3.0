@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arsenal", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bg-theme1 {
+  background-color: #123569;
+}
+.bg-theme2 {
+  background-color: #fff2c5;
+}
+.bg-theme3 {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.StorySect div p{
+  text-indent: 3em;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #b43a3a00 0%, #fff2c5 100%);
+  z-index: 1;
+}
+header,
+.textArea {
+  background-color: #12366a;
+}
+.resourcePgSect {
+  display: none;
+}
+
+.formContainer {
+  margin: 90px 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #0000001a;
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid #ffffff42;
+  border-radius: 20px;
+  font-family: "Kanit", sans-serif;
+}
+input,
+textarea {
+  border-radius: 15px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.Senoviser.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Container for all the member items */
+.Senoviser-items-container {
+  display: flex;
+  animation: scroll-left 42s linear infinite;
+  gap: 16px;
+  padding-bottom: 20px;
+  flex-wrap: nowrap;
+}
+.Senoviser-items-container > div {
+  flex-shrink: 0;
+}
+.Junoviser-items-container {
+  display: flex;
+  animation: scroll-right 42s linear infinite;
+  gap: 16px;
+  padding-bottom: 20px;
+  flex-wrap: nowrap;
+}
+.Junoviser-items-container > div {
+  flex-shrink: 0;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100vw);
+  }
+  50% {
+    transform: translateX(calc(-1 * ((152px + 16px) * 11)));
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+@keyframes scroll-right {
+  0% {
+    transform: translateX(calc(-1 * ((152px + 16px) * 11)));
+  }
+  50% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(calc(-1 * ((152px + 16px) * 11)));
+  }
+}
+
+.imgStyleCat {
+  margin: 0 auto;
+  width: fit-content;
+}
