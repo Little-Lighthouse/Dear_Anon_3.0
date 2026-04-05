@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0-beta.2] – 5-Apr-2026
+### Added
+- Add Telegram link
+- Add PWA capbailities
+- Add sw.js
+- Add manifest.json
+- Add Icons
+
+### Changed
+- Update the Logo
+
 
 ## [3.0.0-beta.1] – 12-Feb-2026
 ### Added

@@ -1,3 +1,12 @@
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+        navigator.serviceWorker
+        .register("/sw.js")
+        .then(res => console.log("Service worker registered"))
+        .catch(err => console.log("Service worker not registered", err));
+    });
+}
+
 const updateVisibility = () => {
 const hash = window.location.hash || "#Recommendations";
 const sections = document.querySelectorAll('.resourcePgSect');

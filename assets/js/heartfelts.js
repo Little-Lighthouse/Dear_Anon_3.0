@@ -55,7 +55,7 @@ export const heartfeltCarousel = [
 
 let activeIndex = 0;
 const track = document.getElementById('carousel-track');
-const OrgLogo = "assets/images/Org Logo.jpeg";
+const OrgLogo = "assets/icons/512x512.png";
 
 function renderSlides() {
   const slidesHTML = heartfeltCarousel.map((item) => {
