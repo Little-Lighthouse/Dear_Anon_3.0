@@ -2,32 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0-beta.3] – 16-Apr-2026
+### Changed
+- Update member section with actual data
+- Update CSS for member section
+- Update achievement section
+- Update Privacy Policy
+- Update Terms and Conditions
+
+
 ## [3.0.0-beta.2] – 5-Apr-2026
 ### Added
 - Add Telegram link
-- Add PWA capbailities
-- Add sw.js
-- Add manifest.json
-- Add Icons
+- Add PWA capabilities (service worker and manifest)
+- Add application icons
 
 ### Changed
-- Update the Logo
+- Update logo
 
 
 ## [3.0.0-beta.1] – 12-Feb-2026
 ### Added
-- Add README.md
-- Add Achievement section in About page
+- Add Achievement section to About page
 
 ### Changed
-- Rebuild the website as static website
-- Replace Contact section BootStrap icons to Shields.io icons
-- Redesign Our Hearfelt section in main page
+- Rebuild website as a static site
+- Replace Contact section Bootstrap icons with Shields.io icons
+- Redesign “Our Heartfelt” section on main page
 
 ### Removed
 - Email page
-- Our heartfelts page
-- Backend Services (MongoDB)
+- “Our Heartfelt” page
+- Backend services (MongoDB)
 - React-based pages
 - Node.js dependencies
 

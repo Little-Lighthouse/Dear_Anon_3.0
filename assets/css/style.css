@@ -91,7 +91,7 @@ textarea {
 /* Container for all the member items */
 .Senoviser-items-container {
   display: flex;
-  animation: scroll-left 42s linear infinite;
+  animation: scroll-left 30s linear infinite;
   gap: 16px;
   padding-bottom: 20px;
   flex-wrap: nowrap;
@@ -101,7 +101,7 @@ textarea {
 }
 .Junoviser-items-container {
   display: flex;
-  animation: scroll-right 42s linear infinite;
+  animation: scroll-right 30s linear infinite;
   gap: 16px;
   padding-bottom: 20px;
   flex-wrap: nowrap;
@@ -115,7 +115,7 @@ textarea {
     transform: translateX(100vw);
   }
   50% {
-    transform: translateX(calc(-1 * ((152px + 16px) * 11)));
+    transform: translateX(calc(-1 * ((152px + 16px) * 5)));
   }
   100% {
     transform: translateX(100vw);
@@ -123,13 +123,13 @@ textarea {
 }
 @keyframes scroll-right {
   0% {
-    transform: translateX(calc(-1 * ((152px + 16px) * 11)));
+    transform: translateX(calc(-1 * ((152px + 16px) * 5)));
   }
   50% {
     transform: translateX(100vw);
   }
   100% {
-    transform: translateX(calc(-1 * ((152px + 16px) * 11)));
+    transform: translateX(calc(-1 * ((152px + 16px) * 5)));
   }
 }
 
